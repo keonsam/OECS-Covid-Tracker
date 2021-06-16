@@ -1,0 +1,25 @@
+.footer {
+  background: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.footer p {
+  text-align: center;
+}
+
+.removed {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.footer-heart {
+  color: red;
+}
+
+.footer-link {
+  white-space: pre-wrap;
+}
