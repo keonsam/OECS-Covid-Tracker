@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import { useEffect, useMemo, useState } from 'react'
 import Loader from './components/loader/Loader';
 import Table from './components/table/Table';
+import Footer from './components/footer/Footer';
 
 function App() {
   const [search, setSearch] = useState("")
@@ -75,6 +76,7 @@ function App() {
         {!data?.length ?  <Loader /> : <Table data={dataSet} columns={columns} filterStr={search} />}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

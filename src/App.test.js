@@ -6,4 +6,9 @@ describe('App', () => {
     render(<App />);
     expect(screen.getByRole('navigation')).toBeInTheDocument();
   });
+
+  it('should load a footer', () => {
+    render(<App />);
+    expect(screen.getByTestId('footer')).toBeInTheDocument();
+  });
 })
