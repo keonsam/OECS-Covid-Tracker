@@ -1,0 +1,54 @@
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(209, 213, 219);
+}
+
+.data-table {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.data-table-head {
+  background: rgb(29, 78, 216);
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.data-table-th {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.data-table-body {
+  width: 100%;
+  color: black;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.data-table-body .data-table-tr {
+  width: 100%;
+  text-align: left;
+}
+
+.data-table-td {
+  padding: 0.75rem;
+  text-align: left;
+  word-break: break-all;
+}
+
+.clipped {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
