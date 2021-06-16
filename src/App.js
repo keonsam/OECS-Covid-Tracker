@@ -73,7 +73,7 @@ function App() {
       <Navbar searchValue={search} handleChange={handleChange} handleSubmit={handleSubmit} />
       <main className="container">
         <div className="main-body">
-        {!data?.length ?  <Loader /> : <Table data={dataSet} columns={columns} filterStr={search} />}
+          {!data?.length ?  <Loader /> : <Table data={dataSet} columns={columns} filterStr={search} />}
         </div>
       </main>
       <Footer />
