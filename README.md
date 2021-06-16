@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+OECS COVID Tracker
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+React app build using Worldometers Covid-19 API in under 24 hours.
 
 ### `yarn start`
 
