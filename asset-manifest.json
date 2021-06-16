@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%7BOECS-Covid-Tracker%7D/static/css/main.3aa1ea06.chunk.css",
+    "main.js": "/%7BOECS-Covid-Tracker%7D/static/js/main.b471eaa6.chunk.js",
+    "main.js.map": "/%7BOECS-Covid-Tracker%7D/static/js/main.b471eaa6.chunk.js.map",
+    "runtime-main.js": "/%7BOECS-Covid-Tracker%7D/static/js/runtime-main.12566b6b.js",
+    "runtime-main.js.map": "/%7BOECS-Covid-Tracker%7D/static/js/runtime-main.12566b6b.js.map",
+    "static/js/2.0c296261.chunk.js": "/%7BOECS-Covid-Tracker%7D/static/js/2.0c296261.chunk.js",
+    "static/js/2.0c296261.chunk.js.map": "/%7BOECS-Covid-Tracker%7D/static/js/2.0c296261.chunk.js.map",
+    "static/js/3.4a9a1743.chunk.js": "/%7BOECS-Covid-Tracker%7D/static/js/3.4a9a1743.chunk.js",
+    "static/js/3.4a9a1743.chunk.js.map": "/%7BOECS-Covid-Tracker%7D/static/js/3.4a9a1743.chunk.js.map",
+    "index.html": "/%7BOECS-Covid-Tracker%7D/index.html",
+    "static/css/main.3aa1ea06.chunk.css.map": "/%7BOECS-Covid-Tracker%7D/static/css/main.3aa1ea06.chunk.css.map",
+    "static/js/2.0c296261.chunk.js.LICENSE.txt": "/%7BOECS-Covid-Tracker%7D/static/js/2.0c296261.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12566b6b.js",
+    "static/js/2.0c296261.chunk.js",
+    "static/css/main.3aa1ea06.chunk.css",
+    "static/js/main.b471eaa6.chunk.js"
+  ]
+}
