@@ -22,7 +22,6 @@ function App() {
 
   const getData = async() => {
     const data = await fetch(`https://corona.lmao.ninja/v3/covid-19/countries/:${countries.join(",")}`).then(res => res.json())
-    console.log(data)
     setData(data)
   }
 
