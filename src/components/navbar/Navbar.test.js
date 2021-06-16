@@ -27,7 +27,7 @@ const props = {
     handleSubmit
 }
 
-describe('nav bar', () => {
+describe('Navbar', () => {
     it('should load a navbar', () => {
         render(<Navbar {...props} />);
         expect(screen.getByRole('navigation')).toBeInTheDocument();

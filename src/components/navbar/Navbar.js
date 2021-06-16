@@ -3,7 +3,7 @@ import "./Navbar.css"
 const Navbar = ({searchValue, handleChange, handleSubmit}) => {
     return (
         <nav>
-            <div className="container">
+            <div className="container nav-body">
                 <h1>OECS Covid Tracker</h1>
                 <form role='search' onSubmit={handleSubmit}>
                     <label htmlFor='header-search'>

@@ -1,7 +1,36 @@
 .App {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   max-width: 1536px;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body {
+  background: #fff;
+  border-radius: 0.5rem;
+  min-height: 445px;
+  min-width: 912px;
+  padding: 1.5rem 0.75rem;
+}
+
+@media (max-width: 640px) {
+  main {
+    justify-content: start;
+    align-items: start;
+  }
+  .main-body {
+    border-radius: 0;
+    height: 100%;
+    min-width: 100%;
+  }
 }
