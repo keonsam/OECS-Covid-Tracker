@@ -4,7 +4,7 @@ OECS COVID Tracker
 
 ## Description
 
-React app build using Worldometers Covid-19 API in under 24 hours. [Github pages link here](https://keonsam.github.io/OECS-Covid-Tracker/). Main force of this was accessibility. Built within a 24 hours time period.
+A Covid-19 data app for the OECS built using react ecosystem on the [Worldometers Covid-19 API](https://disease.sh/docs/#/) in under 24 hours. The main focus of this was around accessibility and usability. [See live preview here](https://keonsam.github.io/OECS-Covid-Tracker/)
 
 
 ### `yarn start`
